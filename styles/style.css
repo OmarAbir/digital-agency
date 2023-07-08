@@ -32,4 +32,43 @@ nav {
 }
 .menu a:hover{
     color: #F52C2C;
+    text-decoration: underline white;
 }
+ /* banner related styles  */
+ .banner-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .banner-title{
+    font-size: 86px;
+ }
+ .banner-des{
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+ }
+ .discover-btn{
+    background-color: #F52C2C;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-right: 5px;
+ }
+ .hire-btn{
+    background-color: #F0F0F0;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+ }
