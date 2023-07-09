@@ -38,7 +38,7 @@ nav {
  .banner-container{
     height: 100vh;
     width: 100%;
-    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-image: url("../asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     background-blend-mode: overlay;
     background-size: cover;
     text-align: center;
@@ -72,3 +72,123 @@ nav {
     padding: 15px 30px;
     font-size: 20px;
  }
+
+ /* service related styles  */
+ .service-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    padding: 25px;
+ }
+ .service-list-btn{
+    background-color: #FFFFFF;
+    padding: 10px 26px;
+    font-size: 20px;
+    border-radius: 36px ;
+    color: gray;
+ }
+ .service-title{
+    font-size: 45px;
+    color: #BECFD0;
+ }
+.service-info{
+    color: #BECFD0;
+    font-size: 20px;
+    
+
+}
+.service-details ol {
+    margin: 20px 0px;
+    margin-left: 20px;
+    color: #BECFD0;
+    font-size: 20px;
+    
+}
+.author-details{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.author{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.author-btn{
+    background-color: #F0F0F0;
+    padding: 10px 26px;
+    font-size: 20px;
+    border-radius: 36px ;
+    color: #F52C2C;
+    margin-left: 50px;
+}
+.author-details h5{
+    border-right:  1px solid #F52C2C;
+    padding-right: 20px;
+}
+.services{
+    display: flex;
+    text-align: center;
+    
+}
+.service-card{
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    width: 50px;
+}
+.icon{
+    width: 70px;
+}
+.first-layer{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    color: black;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+/* apointment  */
+
+.appointment-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F52C2C;
+    color: white;
+    margin: auto;
+    padding: 30px 80px;
+    border-radius: 20px;
+    margin-top: -80px;
+   
+}
+.phone-call{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+.phone-call-title{
+    font-weight: bold;
+    font-size: 10px;
+}
+.appintment-btn{
+    background-color: #F0F0F0;
+    padding: 10px 20px;
+    border-radius: 20px ;
+}
